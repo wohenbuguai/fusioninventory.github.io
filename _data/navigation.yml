@@ -56,3 +56,27 @@ fr: &DEFAULT_FR
       section: contact
 fr-FR:
   <<: *DEFAULT_FR
+
+# Chinese
+# -------
+CN: &DEFAULT_zh_CN
+  nav:
+    - title: "产品特点"
+      section: features
+    - title: "新闻"
+      url: /news.html
+    - title: "下载"
+      section: download
+    - title: "文档"
+      url: https://documentation.fusioninventory.org/
+    - title: "自述"
+      section: presentation
+    - title: "时间线"
+      section: timeline
+    - title: "合作伙伴"
+      section: partners
+    - title: "联系我们"
+      section: contact
+zh-CN:
+  <<: *DEFAULT_zh_CN
+
